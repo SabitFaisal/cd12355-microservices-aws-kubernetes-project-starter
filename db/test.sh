@@ -2,7 +2,7 @@
 
 #PGPASSWORD="$DB_PASSWORD" psql --host 127.0.0.1 -U myuser -d mydatabase -p 5433
 # Define the command you want to run
-command_to_run="PGPASSWORD='$DB_PASSWORD' psql --host 127.0.0.1 -U myuser -d mydatabase -p 5433 < 1_create_tables.sql"
+command_to_run="PGPASSWORD='$DB_PASSWORD' psql --host 127.0.0.1 -U myuser -d mydatabase -p 5433 < 3_seed_tokens.sql"
 
 # Execute the command
 echo "Executing command: $command_to_run"

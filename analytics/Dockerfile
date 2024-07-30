@@ -26,5 +26,6 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE 5153
 
+#test auto build
 # Run the application
 CMD ["python", "app.py"]
